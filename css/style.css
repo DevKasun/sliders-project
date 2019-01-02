@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+html, body, section {
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center; }
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 5rem;
+  margin: 0;
+  line-height: 1.5; }
+
+.devk-button {
+  font-family: 'PT Sans', sans-serif;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #fcad26;
+  padding: 2%;
+  margin: 0 2%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.3rem;
+  transition: all 0.3s;
+  width: 150px; }
+  .devk-button:hover {
+    background-color: #dc8b00; }
+
+.devk-container {
+  display: flex; }
+  .devk-container .devk-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 255, 0.1)), url("../../img/1.jpg");
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out; }
+    .devk-container .devk-left:hover {
+      transform: scale(0.95); }
+  .devk-container .devk-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(164, 222, 102, 0.1)), url("../../img/2.jpg");
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out; }
+    .devk-container .devk-right:hover {
+      transform: scale(0.95); }
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif; }
